@@ -3,7 +3,7 @@ import propTypes from "prop-types";
 import { Link } from "react-router-dom";
 export default function Button(props) {
   const className = [props.className];
-  if (props.isPrimary) className.push("btn-primary");
+  if (props.isPrimary) className.push("btn-secondary");
   if (props.isLight) className.push("btn-light");
   if (props.isLarge) className.push("btn-lg");
   if (props.isSmall) className.push("btn-sm");
