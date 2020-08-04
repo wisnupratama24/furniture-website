@@ -12,10 +12,41 @@ nav {
         margin-top: 1rem;
 
         li {
+            padding: 8px 20px;
+
             a {
                 font-weight: 500;
-                color: $gray-900;
+                font-size: 18px;
                 padding: 0 40px;
+            }
+
+            &:not(.active) {
+                a {
+                    color: $gray-900;
+
+                    &:hover {
+                        color: $gray-900;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            &.active {
+                position: relative;
+                top: -20px;
+                width: auto;
+                padding-top: 1.68rem;
+                height: 80px;
+                background: #E2C263;
+                border-radius: 0px 0px 8px 8px;
+
+                a {
+                    color: $gray-300;
+
+                    &:hover {
+                        color: $gray-300;
+                    }
+                }
             }
         }
     }
@@ -23,6 +54,7 @@ nav {
 
 .menu-toggle {
     display: none;
+    margin-top: 20px;
     flex-direction: column;
     height: 15px;
     justify-content: space-between;

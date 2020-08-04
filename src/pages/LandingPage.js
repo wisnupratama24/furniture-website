@@ -1,11 +1,14 @@
 import React, { Component } from "react";
-import Header from "parts/Header";
+import Navbar from "elements/Navbar";
 
 export default class LandingPage extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     return (
       <>
-        <Header />;
+        <Navbar {...this.props}> </Navbar>
       </>
     );
   }
