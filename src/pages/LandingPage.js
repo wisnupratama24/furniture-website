@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "elements/Navbar";
 import Hero from "parts/Hero";
+import productJson from "json/product.json";
 
 export default class LandingPage extends Component {
   componentDidMount() {
@@ -10,7 +11,7 @@ export default class LandingPage extends Component {
     return (
       <>
         <Navbar {...this.props}> </Navbar>
-        <Hero />
+        <Hero data={productJson.product} />
       </>
     );
   }

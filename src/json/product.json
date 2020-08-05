@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "_id": "1",
+      "name": "Bingsta",
+      "detail": "Dengan panel belakang yang melengkung dan merangkul, kursi berlengan BINGSTA memungkinkan Anda bersantai dengan tenang - meski di area terbuka.",
+      "price": 3495000,
+      "items": [
+        {
+          "_id": "1A",
+          "color": "#E2C263",
+          "imageUrl": "/images/img-product-1.png"
+        },
+        {
+          "_id": "1B",
+          "color": "#565E60",
+          "imageUrl": "/images/img-product-2.png"
+        }
+      ]
+    }
+  ]
+}
