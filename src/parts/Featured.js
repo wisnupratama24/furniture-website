@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import propTypes from "prop-types";
-
+import Fade from "react-reveal/Fade";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
@@ -40,18 +40,25 @@ export default class Featured extends Component {
       ],
     };
     return (
-      <section className="container" style={{ marginTop: 100 }}>
-        <div className="featured mt-5 mx-5">
-          <h2 className="h3 text-center">Featured</h2>
-          <Slider {...settings}>
-            {data.map((item, index) => {
-              return (
-                <ImageFigure dataImage={item} key={`image-featured-${index}`} />
-              );
-            })}
-          </Slider>
-        </div>
-      </section>
+      <Fade bottom>
+        <section className="container" style={{ marginTop: 100 }}>
+          <div className="featured mt-5 mx-5">
+            <h2 className="h3 text-center">Featured</h2>
+            <Slider {...settings}>
+              {data.map((item, index) => {
+                return (
+                  <Fade delay={300 * index} bottom>
+                    <ImageFigure
+                      dataImage={item}
+                      key={`image-featured-${index}`}
+                    />
+                  </Fade>
+                );
+              })}
+            </Slider>
+          </div>
+        </section>
+      </Fade>
     );
   }
 }

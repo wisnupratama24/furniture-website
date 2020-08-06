@@ -47,7 +47,7 @@
 body {
   background-color: $gray-300;
   overflow-x: hidden;
-  height: 1000px !important;
+  height: 2000px !important;
 }
 
 .hero {
@@ -121,11 +121,43 @@ body {
   }
 }
 
+.inspiration {
+  background-image: url('../images/img-inspiration-1.jpg');
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(50%);
+
+  div {
+    h1 {
+      font-size: 60px;
+      color: $white;
+      font-weight: 600;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
 @media screen and (max-width: 576px) {
   .hero {
     .row {
       .bg-right {
         background: none;
+      }
+    }
+  }
+
+  .inspiration {
+    background-size: 100% 300px;
+
+    div {
+      h1 {
+        font-size: 30px;
       }
     }
   }

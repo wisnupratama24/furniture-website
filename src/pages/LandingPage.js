@@ -3,6 +3,7 @@ import Navbar from "elements/Navbar";
 import Hero from "parts/Hero";
 import productJson from "json/product.json";
 import Featured from "parts/Featured";
+import Inspiration from "parts/Inspiration";
 
 export default class LandingPage extends Component {
   componentDidMount() {
@@ -14,6 +15,7 @@ export default class LandingPage extends Component {
         <Navbar {...this.props}> </Navbar>
         <Hero data={productJson.Hero} />
         <Featured data={productJson.Featured} />
+        <Inspiration />
       </>
     );
   }
