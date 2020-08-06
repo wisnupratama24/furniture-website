@@ -1,18 +1,18 @@
 import React from "react";
-import img from "assets/images/img-product-3-1.png";
 import "./index.scss";
-export default function ImageFigure() {
+import formatNumber from "utils/formatNumber";
+export default function ImageFigure({ dataImage }) {
   return (
     <figure className="figure">
       <img
-        src={img}
+        src={dataImage.imageUrl}
         className="figure-img img-fluid rounded"
-        alt="A generic square placeholder imagewith rounded corners in a figure."
+        alt={dataImage.name}
       />
       <div className="img-wrapper"></div>
       <div className="information"> </div>
-      <span> POÄNG </span>
-      <span> Rp 1.095.000</span>
+      <span> {dataImage.name} </span>
+      <span> Rp. {formatNumber(dataImage.price)}</span>
     </figure>
   );
 }

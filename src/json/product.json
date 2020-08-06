@@ -1,5 +1,5 @@
 {
-  "product": [
+  "Hero": [
     {
       "_id": "1",
       "name": "Bingsta",
@@ -17,6 +17,32 @@
           "imageUrl": "/images/img-product-2.png"
         }
       ]
+    }
+  ],
+  "Featured": [
+    {
+      "_id": "2",
+      "name": "POÄNG",
+      "price": 1095000,
+      "imageUrl": "/images/img-product-3-1.png"
+    },
+    {
+      "_id": "3",
+      "name": "VEDBO",
+      "price": 2995000,
+      "imageUrl": "/images/img-product-3.png"
+    },
+    {
+      "_id": "4",
+      "name": "STOCKHOLM 2017",
+      "price": 6495000,
+      "imageUrl": "/images/img-product-4.png"
+    },
+    {
+      "_id": "5",
+      "name": "STORSELE",
+      "price": 1995000,
+      "imageUrl": "/images/img-product-5.png"
     }
   ]
 }

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import propTypes from "prop-types";
+
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
@@ -9,6 +11,7 @@ import ImageFigure from "elements/Slider/ImageFigure";
 
 export default class Featured extends Component {
   render() {
+    const { data } = this.props;
     const settings = {
       className: "center",
       centerMode: true,
@@ -41,13 +44,18 @@ export default class Featured extends Component {
         <div className="featured mt-5 mx-5">
           <h2 className="h3 text-center">Featured</h2>
           <Slider {...settings}>
-            <ImageFigure />
-            <ImageFigure />
-            <ImageFigure />
-            <ImageFigure />
+            {data.map((item, index) => {
+              return (
+                <ImageFigure dataImage={item} key={`image-featured-${index}`} />
+              );
+            })}
           </Slider>
         </div>
       </section>
     );
   }
 }
+
+Featured.propTypes = {
+  data: propTypes.array,
+};

@@ -69,12 +69,11 @@ export default class Hero extends Component {
                 {this.state.urlImage === "" ? (
                   item.items.map((item3, index3) => {
                     return (
-                      <Fade right>
+                      <Fade right key={`img-product-${index3}`}>
                         <img
                           src={item3.imageUrl}
                           className={`${index3 === 0 ? "d-block" : "d-none"}`}
                           alt={`img-${index3}`}
-                          key={`img-product-${index3}`}
                         />
                       </Fade>
                     );
