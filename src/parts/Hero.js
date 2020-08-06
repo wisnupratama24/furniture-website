@@ -69,12 +69,14 @@ export default class Hero extends Component {
                 {this.state.urlImage === "" ? (
                   item.items.map((item3, index3) => {
                     return (
-                      <img
-                        src={item3.imageUrl}
-                        className={`${index3 === 0 ? "d-block" : "d-none"}`}
-                        alt={`img-${index3}`}
-                        key={`img-product-${index3}`}
-                      />
+                      <Fade right>
+                        <img
+                          src={item3.imageUrl}
+                          className={`${index3 === 0 ? "d-block" : "d-none"}`}
+                          alt={`img-${index3}`}
+                          key={`img-product-${index3}`}
+                        />
+                      </Fade>
                     );
                   })
                 ) : (
