@@ -47,6 +47,7 @@
 body {
   background-color: $gray-300;
   overflow-x: hidden;
+  height: 1000px !important;
 }
 
 .hero {
@@ -111,6 +112,12 @@ body {
         }
       }
     }
+  }
+}
+
+.featured {
+  h2 {
+    text-transform: uppercase;
   }
 }
 
