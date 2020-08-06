@@ -44,5 +44,19 @@
       "price": 1995000,
       "imageUrl": "/images/img-product-5.png"
     }
+  ],
+  "Inspiration": [
+    {
+      "title": "life your living",
+      "imageUrl": "/images/img-inspiration-1.jpg"
+    },
+    {
+      "title": "one living room with many possibilities",
+      "imageUrl": "/images/img-inspiration-2.jpg"
+    },
+    {
+      "title": "divides limited space intelligently",
+      "imageUrl": "/images/img-inspiration-3.jpg"
+    }
   ]
 }

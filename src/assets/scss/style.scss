@@ -122,20 +122,23 @@ body {
 }
 
 .inspiration {
-  background-image: url('../images/img-inspiration-1.jpg');
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 600px;
   margin-top: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  filter: grayscale(50%);
 
   div {
-    h1 {
-      font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 500px;
+      width: 100%;
+      // filter: grayscale(80%);
+    }
+
+    h2 {
+      text-transform: uppercase;
+      position: absolute;
+      font-size: 40px;
       color: $white;
       font-weight: 600;
       text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
@@ -153,11 +156,16 @@ body {
   }
 
   .inspiration {
-    background-size: 100% 300px;
 
     div {
-      h1 {
-        font-size: 30px;
+      img {
+
+        height: 300px;
+      }
+
+      h2 {
+        font-size: 20px;
+        // width: 100px;
       }
     }
   }

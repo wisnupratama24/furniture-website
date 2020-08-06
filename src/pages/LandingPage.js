@@ -15,7 +15,7 @@ export default class LandingPage extends Component {
         <Navbar {...this.props}> </Navbar>
         <Hero data={productJson.Hero} />
         <Featured data={productJson.Featured} />
-        <Inspiration />
+        <Inspiration imageUrl={productJson.Inspiration} />
       </>
     );
   }
