@@ -2,8 +2,14 @@
   display: block;
   height: 40px;
   width: 40px;
-  margin-top: 40px;
-  margin-right: 50px;
+  margin-top: 25px;
+  margin-right: -20px;
   transform: rotateY(180deg);
   z-index: 999;
+}
+
+@media screen and (max-width: 576px) {
+  .slick-prev {
+    margin-top: 20px;
+  }
 }

@@ -23,7 +23,7 @@ export default function Card() {
                 Anastasia
               </p>
             </div>
-            <Button className='btn  font-weight-bold mt-3' hasShadow isPrimary>
+            <Button className='btn  font-weight-bold mt-5' hasShadow isPrimary>
               Checkout
             </Button>
           </div>
