@@ -147,6 +147,9 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   .hero {
     .row {
       .bg-right {
@@ -156,10 +159,8 @@ body {
   }
 
   .inspiration {
-
     div {
       img {
-
         height: 300px;
       }
 

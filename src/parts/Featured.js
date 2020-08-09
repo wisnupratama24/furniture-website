@@ -41,9 +41,9 @@ export default class Featured extends Component {
     };
     return (
       <Fade bottom>
-        <section className="container" style={{ marginTop: 100 }}>
-          <div className="featured mt-5 mx-5">
-            <h2 className="h3 text-center">Featured</h2>
+        <section className='container' style={{ marginTop: 100 }}>
+          <div className='featured mt-5 mx-5'>
+            <h2 className='h3 text-center'>Featured</h2>
             <Slider {...settings}>
               {data.map((item, index) => {
                 return (
