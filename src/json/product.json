@@ -58,5 +58,61 @@
       "title": "divides limited space intelligently",
       "imageUrl": "/images/img-inspiration-3.jpg"
     }
+  ],
+  "ProductDetail": [
+    {
+      "_id": "6",
+      "name": "FORSÅ",
+      "price": 399000,
+      "imageUrl": "/images/img-product-6.png"
+    },
+    {
+      "_id": "7",
+      "name": "NOT",
+      "price": 249000,
+      "imageUrl": "/images/img-product-7.png"
+    },
+    {
+      "_id": "8",
+      "name": "LAUTERS",
+      "price": 799000,
+      "imageUrl": "/images/img-product-8.png"
+    },
+    {
+      "_id": "9",
+      "name": "NÄVLINGE",
+      "price": 299000,
+      "imageUrl": "/images/img-product-9.png"
+    },
+    {
+      "_id": "10",
+      "name": "TRYSIL",
+      "price": 499000,
+      "imageUrl": "/images/img-product-10.png"
+    },
+    {
+      "_id": "11",
+      "name": "NORDKISA",
+      "price": 599000,
+      "imageUrl": "/images/img-product-11.png"
+    },
+    {
+      "_id": "12",
+      "name": "MYRHEDEN",
+      "price": 499000,
+      "imageUrl": "/images/img-product-12.png"
+    },
+    {
+      "_id": "13",
+      "name": "BESTÅENDE",
+      "price": 299000,
+      "imageUrl": "/images/img-product-13.png"
+    },
+    {
+      "_id": "14",
+      "name": "BRIMNES",
+      "price": 2599000,
+      "imageUrl": "/images/img-product-14.png"
+    }
   ]
 }
