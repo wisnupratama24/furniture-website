@@ -132,7 +132,6 @@ body {
     img {
       height: 500px;
       width: 100%;
-      // filter: grayscale(80%);
     }
 
     h2 {
@@ -143,6 +142,26 @@ body {
       font-weight: 600;
       text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     }
+  }
+}
+
+.card-design {
+  min-width: 80%;
+  background-color: $gray-e8;
+  min-height: 350px;
+  .card-awards {
+    padding: 40px 0 0 130px;
+  }
+  img {
+    max-height: 348px;
+    max-width: 350px;
+  }
+  h3 {
+    font-weight: 600;
+  }
+
+  p {
+    font-weight: 300;
   }
 }
 
@@ -166,8 +185,20 @@ body {
 
       h2 {
         font-size: 20px;
-        // width: 100px;
       }
+    }
+  }
+
+  .card-design {
+    width: 100%;
+    .image-card {
+      width: 100%;
+      padding: 45px;
+      box-sizing: content-box;
+    }
+    .card-awards {
+      padding: 30px 0 0 60px;
+      margin-bottom: 20px;
     }
   }
 }
