@@ -124,7 +124,6 @@ body {
 
 .inspiration {
   margin-top: 80px;
-
   div {
     display: flex;
     justify-content: center;
@@ -147,7 +146,8 @@ body {
 }
 
 .card-design {
-  min-width: 80%;
+  min-width: 84%;
+  margin-right: 27px;
   background-color: $gray-e8;
   min-height: 350px;
   .card-awards {
@@ -191,6 +191,7 @@ body {
   }
 
   .card-design {
+    margin-right: 0;
     width: 100%;
     .image-card {
       width: 100%;
@@ -206,8 +207,10 @@ body {
     width: 100%;
   }
 }
+
 .image-product {
   margin-top: 70px;
+  margin-bottom: 70px;
   width: 80%;
   .meta-wrapper {
     z-index: 4;
@@ -255,4 +258,22 @@ body {
   object-fit: contain;
   height: 100%;
   width: 100%;
+}
+
+footer {
+  text-align: center;
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: $white;
+    h3 {
+      font-weight: 600;
+      margin-top: 45px;
+    }
+  }
+
+  margin-top: 150px;
+  height: 150px;
+  background-color: $yellow;
 }
