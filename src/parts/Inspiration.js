@@ -19,9 +19,9 @@ export default class Inspiration extends Component {
       <Slider {...settings}>
         {imageUrl.map((item, index) => {
           return (
-            <section className="inspiration">
+            <section className='inspiration' key={`inspiration-${index}`}>
               <div>
-                <img src={item.imageUrl} alt="ok" />
+                <img src={item.imageUrl} alt='ok' />
                 <h2> {item.title} </h2>
               </div>
             </section>

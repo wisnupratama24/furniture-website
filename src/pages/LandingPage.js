@@ -5,6 +5,7 @@ import productJson from "json/product.json";
 import Featured from "parts/Featured";
 import Inspiration from "parts/Inspiration";
 import Card from "parts/Card";
+import Product from "parts/Product";
 
 export default class LandingPage extends Component {
   componentDidMount() {
@@ -18,6 +19,7 @@ export default class LandingPage extends Component {
         <Featured data={productJson.Featured} />
         <Inspiration imageUrl={productJson.Inspiration} />
         <Card />
+        <Product data={productJson.ProductDetail} />
       </>
     );
   }

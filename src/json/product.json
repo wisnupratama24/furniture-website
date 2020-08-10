@@ -85,6 +85,12 @@
       "imageUrl": "/images/img-product-9.png"
     },
     {
+      "_id": "14",
+      "name": "BRIMNES",
+      "price": 2599000,
+      "imageUrl": "/images/img-product-14.png"
+    },
+    {
       "_id": "10",
       "name": "TRYSIL",
       "price": 499000,
@@ -107,12 +113,6 @@
       "name": "BESTÅENDE",
       "price": 299000,
       "imageUrl": "/images/img-product-13.png"
-    },
-    {
-      "_id": "14",
-      "name": "BRIMNES",
-      "price": 2599000,
-      "imageUrl": "/images/img-product-14.png"
     }
   ]
 }

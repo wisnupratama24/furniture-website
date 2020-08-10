@@ -47,7 +47,7 @@ export default class Featured extends Component {
             <Slider {...settings}>
               {data.map((item, index) => {
                 return (
-                  <Fade delay={300 * index} bottom>
+                  <Fade delay={300 * index} bottom key={`image-${index}`}>
                     <ImageFigure
                       dataImage={item}
                       key={`image-featured-${index}`}
